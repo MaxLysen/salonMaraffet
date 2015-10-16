@@ -1,0 +1,183 @@
+@import "http://webfonts.ru/import/caviar.css";
+@import "http://webfonts.ru/import/oldstandard.css";
+@import "http://webfonts.ru/import/theano.css";
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+body {
+    background-image: url('../images/proba.png');
+    font-family: 'Caviar Dreams';
+    font-size: 17px;
+}
+
+#topTop {
+    border-top: 8px solid #9A5CA1;
+    border-bottom: 8px solid #9A5CA1;
+}
+
+
+.boxShadow8 {
+    box-shadow: 0 0 20px 5px rgba(34, 0, 39, 0.9);
+}
+
+.yellow {
+    color: #F5EA21;
+}
+
+#topZ {
+    width: 25%;
+    margin: 5px 0 10px 0;
+}
+
+
+#topM {
+    text-align: center;
+    width: 35%;
+    min-width: 300px;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+#top {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+   
+}
+
+#ttt {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yellow {
+    color: #fff;
+}
+
+.shadow {
+    text-shadow: 2px 2px 2px black, 0 0 1em #000000;
+    font-weight: 400;
+}
+
+#headr {
+    background: rgba(49, 1, 51, 0.8);
+    padding-left: 0;
+    padding-right: 0;
+    border-left: 0px solid #995B9F;
+    border-top: 0px solid #995B9F;
+    margin-bottom: 15px;
+}
+
+#content {
+    background: rgba(49, 1, 51, 0.8);
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+#inContent {
+    padding : 15px 20px;
+}
+
+1div {
+    border: 1px solid red;
+}
+
+div .mainMenu{
+    padding-top: 0px;
+    margin-bottom: 0;
+}
+
+nav ul li i{
+    color: #F2ED16;
+}
+
+
+.mainMenu {
+    width: 100%;
+}
+
+.mainMenu ul{
+    padding-left: 0px;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.mainMenu ul li{
+    display: inline;
+    margin: 50px 15px ;
+    text-transform: uppercase;
+}
+
+.mainMenu ul li:hover {
+    padding-bottom: 4px;
+    border-bottom: 3px solid #FFFFFF;
+    transition: 0.3s;
+    }
+
+.mainMenu a{
+    color: #FFFFFF;
+    font-family: 'Caviar Dreams';
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.mainMenu a:hover{
+    color: #FFFFFF;
+    font-family: 'Caviar Dreams';
+    font-size: 18px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+
+#footer {
+    background: rgba(49, 1, 51, 0.8);
+    color: #FFFFFF;
+    height: 95px;
+}
+
+#divCar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+#phone i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div[id="inContent"] p {
+    text-indent: 35px;
+    text-align: justify;
+    text-shadow: 4px 4px 4px black;
+}
+
+#social  {
+    float: right;
+    color: #FFFFFF;
+    display: inline-block;
+    height: auto;
+}
+
+a.socIcon {
+    color: #fff;   
+}
+
+a.socIcon i{
+    margin-top: 15px;   
+}
+
+a.socIcon:hover {
+    color: #0076D7;
+    transition: 0.4s;
+}
+
+
+#maxLysen {
+    width: 15%;
+    height: 15%;
+    z-index: 100;
+    color: #FFFFFF;
+    float: right;
+}
