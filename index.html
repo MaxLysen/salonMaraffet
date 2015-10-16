@@ -57,52 +57,53 @@
     </div>
 
     <!--НОВОЕ МЕНЮ-->
-    <div class="navbar navbar-inverse">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+        <div class="navbar navbar-inverse boxShadow8">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
 
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="responsive-menu">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">О нас</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Услуги салона <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Парикмахерские услуги</a></li>
-                            <li><a href="#">Маникюр Педикюр</a></li>
-                            <li><a href="#">Косметология</a></li>
-                            <li><a href="#">Масаж</a></li>
-                            <li><a href="#">Инфракрасная сауна</a></li>
-                            <li><a href="#">Наращивание ресниц</a></li>
-                            <li><a href="#">Фитнес тренажерный зал</a></li>
-                            <li><a href="#">Солярий</a></li>
-                            <li><a href="#">Татуаж</a></li>
-                        </ul>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="responsive-menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">О нас</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Услуги салона <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Парикмахерские услуги</a></li>
+                                <li><a href="#">Маникюр Педикюр</a></li>
+                                <li><a href="#">Косметология</a></li>
+                                <li><a href="#">Масаж</a></li>
+                                <li><a href="#">Инфракрасная сауна</a></li>
+                                <li><a href="#">Наращивание ресниц</a></li>
+                                <li><a href="#">Фитнес тренажерный зал</a></li>
+                                <li><a href="#">Солярий</a></li>
+                                <li><a href="#">Татуаж</a></li>
+                            </ul>
 
-                    </li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Мастера</a></li>
-                    <li><a href="#">Галерея</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
+                        </li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Мастера</a></li>
+                        <li><a href="#">Галерея</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
 
-                <!--Форма для соц иконок -->
-                <div class="hidden-xs hidden-sm" id="social">
-                    <a class="socIcon" href="" title="Facebook"><i class="fa fa-facebook-official fa-lg"></i></a>&nbsp
-                    <a class="socIcon" href="" title="VKontakte"><i class="fa fa-vk fa-lg"></i></a>&nbsp
-                    <a class="socIcon" href="" title="Instagram"><i class="fa fa-instagram fa-lg"></i></a>&nbsp
+                    <!--Форма для соц иконок -->
+                    <div class="hidden-xs hidden-sm" id="social">
+                        <a class="socIcon" href="" title="Facebook"><i class="fa fa-facebook-official fa-lg"></i></a>&nbsp
+                        <a class="socIcon" href="" title="VKontakte"><i class="fa fa-vk fa-lg"></i></a>&nbsp
+                        <a class="socIcon" href="" title="Instagram"><i class="fa fa-instagram fa-lg"></i></a>&nbsp
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+
 
     <!--Меню-->
-    <div class="container-fluid visible-xs visible-sm">
+    <div class="container-fluid visible-xs visible-sm boxShadow8">
         <div class="row">
 
             <div class="col-md-1 col-xs-12 col-sm-12 boxShadow8" id="headr">
@@ -118,81 +119,59 @@
         </div>
     </div>
     <!--Карусель-->
-    <div class="container-fluid" id="divCar">
-        <div class="row">
-            <div class="col-md-12   ">
-                <div class="carousel slide boxShadow8" id="carousel">
+    <div class="carousel slide boxShadow8" id="carousel">
 
-                    <!--Индикатор переключения слайдов-->
+        <!--Индикатор переключения слайдов-->
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#carousel" data-slide-to="0"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+        </ol>
 
-                    <ol class="carousel-indicators">
-                        <li class="active" data-target="#carousel" data-slide-to="0"></li>
-                        <li data-target="#carousel" data-slide-to="1"></li>
-                        <li data-target="#carousel" data-slide-to="2"></li>
-                        <li data-target="#carousel" data-slide-to="3"></li>
-                        <li data-target="#carousel" data-slide-to="4"></li>
-                        <li data-target="#carousel" data-slide-to="5"></li>
-                    </ol>
-
-                    <!--Слайды-->
-
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="images/vizazh.jpg" alt="">
-                            <div class="carousel-caption">
-                                <h3 class="shadow">Услуги визажиста</h3>
-                                <p class="shadow">Создай свой собственный стиль</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/manikur1.jpg" alt="">
-                            <div class="carousel-caption">
-                                <h3 class="shadow">Услуги стилиста</h3>
-                                <p class="shadow">Мы поможем Вам стать еще красивее</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/manikur1.jpg" alt="">
-                            <div class="carousel-caption">
-                                <h3 class="shadow">Маникюр</h3>
-                                <p class="shadow">Ваши ручки станут украшением</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/manikur1.jpg" alt="">
-                            <div class="carousel-caption">
-                                <h3 class="shadow">Татуаж</h3>
-                                <p class="shadow">Ты полюбишь татуровки...</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/massage.jpg" alt="">
-                            <div class="carousel-caption">
-                                <h3 class="shadow">Услуги массажиста</h3>
-                                <p class="shadow">Эффект массажа - естественная, восстанавливающая сила организма, сила жизни</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/fitnes2.jpg" alt="">
-                            <div class="carousel-caption">
-                                <h3 class="shadow">Фитнес зал</h3>
-                                <p class="shadow">Немного усилий и ты почувствуешь себя новым человеком</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Стрелки переключения слайдов-->
-
-                    <a href="#carousel" class="left carousel-control" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                    </a>
-                    <a href="#carousel" class="right carousel-control" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
+        <!--Слайды-->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/vizazh.jpg" alt="">
+                <div class="carousel-caption">
+                    <h3>Первый слайд</h3>
+                    <p>Описание первого слайда</p>
                 </div>
             </div>
-        </div>
+            <div class="item">
+                <img src="images/massage.jpg" alt="">
+                <div class="carousel-caption">
+                    <h3>Второй слайд</h3>
+                    <p>Описание второго слайда</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/manikur1.jpg" alt="">
+                <div class="carousel-caption">
+                    <h3>Третий слайд</h3>
+                    <p>Описаниетретьего слайда</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/fitnes2.jpg" alt="">
+                <div class="carousel-caption">
+                    <h3>Третий слайд</h3>
+                    <p>Описаниетретьего слайда</p>
+                </div>
+            </div>
+            </div>
+        <!--Стрелки переключения слайдов-->
+        <a href="#carousel" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#carousel" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div>
+
+
+
+
     <br>
     <div class="container-fluid">
         <div class="row">
